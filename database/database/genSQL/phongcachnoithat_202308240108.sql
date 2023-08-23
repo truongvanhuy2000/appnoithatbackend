@@ -1,0 +1,7 @@
+INSERT INTO appnoithat.phongcachnoithat (name) VALUES
+	 ('HẠNG MỤC BỔ XUNG'),
+	 ('HẠNG MỤC SỬA CHỮA PHẦN THÔ'),
+	 ('NỘI THẤT CAO CẤP GỖ ÓC CHÓ PHIÊN BẢN GIỚI HẠN - WALNUT LIMITED EDITION'),
+	 ('NỘI THẤT GỖ SỒI MỸ - AMERICAN OAK EDITION'),
+	 ('NỘI THẤT PHONG CÁCH HIỆN ĐẠI - CONTEMPORARY STYLE'),
+	 ('NỘI THẤT TÂN CỔ ĐIỂN SANG TRỌNG - CONTEMPORATY CLASSIC');

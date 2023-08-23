@@ -24,24 +24,24 @@ CREATE TABLE `roles` (
 
 CREATE TABLE `phongcachnoithat` (
   `id` integer PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  `name` nvarchar(255) UNIQUE NOT NULL
+  `name` nvarchar(255) NOT NULL
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 CREATE TABLE `noithat` (
   `id` integer PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  `name` nvarchar(255) UNIQUE NOT NULL,
+  `name` nvarchar(255)  NOT NULL,
   `phong_cach_id` integer NOT NULL
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 CREATE TABLE `hangmuc` (
   `id` integer PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  `name` nvarchar(255) UNIQUE NOT NULL,
+  `name` nvarchar(255)  NOT NULL,
   `noi_that_id` integer NOT NULL
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 CREATE TABLE `vatlieu` (
   `id` integer PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  `name` nvarchar(500) UNIQUE NOT NULL,
+  `name` nvarchar(500)  NOT NULL,
   `hang_muc_id` integer NOT NULL,
   `thong_so_id` integer NOT NULL
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
