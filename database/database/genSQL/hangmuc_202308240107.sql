@@ -8,8 +8,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Ghế ăn',1),
 	 ('Ghế sofa văng',2),
 	 ('Đôn ngồi sofa',2),
-	 ('Ghế ngồi sofa',2);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Ghế ngồi sofa',2),
 	 ('Bàn trà ',2),
 	 ('Ốp vách',2),
 	 ('Kệ tivi gỗ CN',2),
@@ -19,20 +18,17 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Tap đầu giường',3),
 	 ('Bàn phấn',3),
 	 ('Ghế trang điểm',3),
-	 ('Gương ',3);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Gương ',3),
 	 ('Tủ quần áo ',3),
 	 ('Ốp đầu giường',3),
 	 ('Bàn làm việc (Bàn học)',3),
 	 ('Kệ sách',3),
-	 ('Đôn thư giãn
-Ghế nghỉ',3),
+	 ('Đôn thư giãn Ghế nghỉ',3),
 	 ('Bản lề',4),
 	 ('Ray ngăn kéo',4),
 	 ('Ray lùa tủ áo',4),
 	 ('Chống cong vênh cánh lùa tủ áo',4),
-	 ('Giá bát',4);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Giá bát',4),
 	 ('Pittong',4),
 	 ('Tay nâng ',4),
 	 ('Giá xoong nồi',4),
@@ -42,8 +38,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Kính bếp',4),
 	 ('Gạch bông',4),
 	 ('Đá bếp',4),
-	 ('Soi đá bếp',4);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Soi đá bếp',4),
 	 ('Đèn led tủ',4),
 	 ('Đèn led ngăn kéo bếp',4),
 	 ('Thùng rác',4),
@@ -53,8 +48,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Giá xoong nồi',5),
 	 ('Giá để dao thớt',5),
 	 ('Giá để gia vị',5),
-	 ('Pittong nâng cánh',5);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Pittong nâng cánh',5),
 	 ('Tủ kho 6 tầng',5),
 	 ('Thùng rác',5),
 	 ('Lavabo',6),
@@ -64,8 +58,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Tủ bếp kịch trần ',7),
 	 ('Bàn đảo bếp',7),
 	 ('Đợt trang trí',7),
-	 ('Bàn ăn',7);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Bàn ăn',7),
 	 ('Ghế ăn',7),
 	 ('Sofa tân cổ Italia',8),
 	 ('Đôn ngồi sofa',8),
@@ -75,8 +68,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Kệ tivi',8),
 	 ('Tủ trang trí (tủ rượu)',8),
 	 ('Tủ giày Gỗ CN',8),
-	 ('Giường ngủ bọc da nỉ',9);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Giường ngủ bọc da nỉ',9),
 	 ('Giường ngủ khung gỗ kết hợp bọc da nỉ',9),
 	 ('Tap đầu giường',9),
 	 ('Bàn phấn',9),
@@ -86,8 +78,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Ốp đầu giường',9),
 	 ('Bàn làm việc (Bàn học)',9),
 	 ('Đôn tư giãn',9),
-	 ('Ghế nghỉ',9);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Ghế nghỉ',9),
 	 ('Lavabo',10),
 	 ('Vách kính nhà tắm',10),
 	 ('Tủ bếp dưới',11),
@@ -97,8 +88,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Đợt trang trí',11),
 	 ('Bàn ăn',11),
 	 ('Ghế ăn',11),
-	 ('Ghế sofa',12);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Ghế sofa',12),
 	 ('Bàn trà ',12),
 	 ('Ốp vách',12),
 	 ('Kệ tivi',12),
@@ -108,8 +98,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Tap đầu giường',13),
 	 ('Bàn phấn',13),
 	 ('Ghế trang điểm',13),
-	 ('Gương trang điểm',13);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Gương trang điểm',13),
 	 ('Tủ áo',13),
 	 ('Ốp đầu giường',13),
 	 ('Bàn làm việc (Bàn học)',13),
@@ -119,8 +108,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Tủ bếp trên ',14),
 	 ('Tủ bếp kịch trần',14),
 	 ('Bàn đảo bếp',14),
-	 ('Đợt trang trí',14);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Đợt trang trí',14),
 	 ('Bàn ăn',14),
 	 ('Ghế ăn',14),
 	 ('Ghế sofa',15),
@@ -130,8 +118,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Tủ trang trí (tủ rượu)',15),
 	 ('Tủ giày',15),
 	 ('Giường ngủ',16),
-	 ('Tap đầu giường',16);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Tap đầu giường',16),
 	 ('Bàn phấn',16),
 	 ('Ghế trang điểm',16),
 	 ('Gương trang điểm',16),
@@ -141,8 +128,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Giá sách',16),
 	 ('Đôn thư giãn',16),
 	 ('Ghế nghỉ',16),
-	 ('Tủ bếp dưới ',17);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Tủ bếp dưới ',17),
 	 ('Tủ bếp trên ',17),
 	 ('Tủ bếp kịch trần',17),
 	 ('Bàn đảo bếp',17),
@@ -152,8 +138,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Bàn đảo bếp',18),
 	 ('Phát sinh ',18),
 	 ('Nẹp xung quanh ',18),
-	 ('Tháo dỡ sàn gõ cũ',19);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Tháo dỡ sàn gõ cũ',19),
 	 ('Tháo dỡ gạch ốp tường, sàn đá hoa cũ',19),
 	 ('Ốp tường, sàn đá hoa',19),
 	 ('Vật liệu ốp sàn bếp',19),
@@ -163,8 +148,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Cầm cửa, trát cạnh',19),
 	 ('Đổ lanh tô cửa đi mới',19),
 	 ('Đóng bao phế liệu',19),
-	 ('Chống thấm ',19);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Chống thấm ',19),
 	 ('Tháo, lắp điều hòa',20),
 	 ('Đi dây đồngđiều hòa',20),
 	 ('Nhân công đi điện, nước',20),
@@ -174,8 +158,7 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Phào tường Tân cổ điển',21),
 	 ('Phào trần Tân cổ điển',21),
 	 ('Sơn lại tường nhà',22),
-	 ('Sơn lại trần nhà',22);
-INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
+	 ('Sơn lại trần nhà',22),
 	 ('Sàn gỗ An Cường 8mm',23),
 	 ('Sàn gỗ An Cường xương cá 12mm kiểu công nghiệp',23),
 	 ('Sàn gỗ An Cường xương cá 12mm kiểu tự nhiên',23),
@@ -183,4 +166,4 @@ INSERT INTO appnoithat.hangmuc (name,noi_that_id) VALUES
 	 ('Sàn gỗ CLASSIC FLOORING; AGT',23),
 	 ('Sàn gỗ A Qua; KANSAS',23),
 	 ('Phào chân tường',23),
-	 ('Lót sàn',23);
+	 ('Lót sàn',23)

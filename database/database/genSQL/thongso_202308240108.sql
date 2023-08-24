@@ -8,8 +8,7 @@ INSERT INTO appnoithat.thongso (dai,rong,cao,don_vi,don_gia) VALUES
 	 (NULL,350.0,750.0,'mét dài',2700000),
 	 (NULL,350.0,400.0,'mét dài',1435000),
 	 (NULL,350.0,400.0,'mét dài',1790000),
-	 (NULL,350.0,810.0,'mét dài',1950000);
-INSERT INTO appnoithat.thongso (dai,rong,cao,don_vi,don_gia) VALUES
+	 (NULL,350.0,810.0,'mét dài',1950000),
 	 (NULL,600.0,810.0,'mét dài',3550000),
 	 (NULL,600.0,810.0,'mét dài',4150000),
 	 (NULL,600.0,810.0,'mét dài',5490000),
@@ -19,4 +18,4 @@ INSERT INTO appnoithat.thongso (dai,rong,cao,don_vi,don_gia) VALUES
 	 (500.0,550.0,900.0,'chiếc',1550000),
 	 (NULL,800.0,750.0,'mét dài',3980000),
 	 (300.0,300.0,400.0,'chiếc',1550000),
-	 (800.0,700.0,400.0,'bộ',2950000);
+	 (800.0,700.0,400.0,'bộ',2950000)

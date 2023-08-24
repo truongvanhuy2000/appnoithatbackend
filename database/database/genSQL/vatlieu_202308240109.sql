@@ -26,8 +26,7 @@ Cánh: MDF chống ẩm 17mm phủ Laminate An Cường
 - Hậu: Nhôm Alu dày 3mm chống nước tuyệt đối',3,9),
 	 ('Thùng: MDF chống ẩm 17mm phủ melamin An Cường
 Cánh: MDF chống ẩm 17mm phủ Acrylic An Cường
-Hậu: Nhôm Alu dày 3mm chống nước tuyệt đối',3,10);
-INSERT INTO appnoithat.vatlieu (name,hang_muc_id,thong_so_id) VALUES
+Hậu: Nhôm Alu dày 3mm chống nước tuyệt đối',3,10),
 	 ('-Thùng: nhựa Picomat 17mm  chống nước tuyệt đối
 -Cánh: MDF chống ẩm 17mm phủ Melamine An Cường 
 - Mặt lộ: MDF chống ẩm 17mm phủ Melamine An Cường ',4,11),
@@ -45,4 +44,4 @@ INSERT INTO appnoithat.vatlieu (name,hang_muc_id,thong_so_id) VALUES
 	 ('Giá trị ước tính ý nghĩa tham khảo, giá trị thực tính theo mẫu 3D hoặc lựa chọn mẫu thực tế',7,17),
 	 ('Khung gỗ thông, bọc da hoặc nỉ công nghiệp Hàn Quốc, Giá trị tạm tính tính theo mẫu thực tế',8,18),
 	 ('Khung gỗ thông, bọc da hoặc nỉ công nghiệp Hàn Quốc, Giá trị tạm tính tính theo mẫu thực tế',9,19),
-	 ('Khung gỗ thông, bọc da hoặc nỉ công nghiệp Hàn Quốc, Giá trị tạm tính tính theo mẫu thực tế',10,20);
+	 ('Khung gỗ thông, bọc da hoặc nỉ công nghiệp Hàn Quốc, Giá trị tạm tính tính theo mẫu thực tế',10,20)
