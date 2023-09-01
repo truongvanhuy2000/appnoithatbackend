@@ -9,11 +9,11 @@ CREATE TABLE `account` (
 
 CREATE TABLE `accountinformation` (
 `id` integer PRIMARY KEY NOT NULL AUTO_INCREMENT,
-`name` nvarchar(255) NOT NULL,
-`gender` varchar(255) NOT NULL,
-`email` varchar(255)  NOT NULL,
-`address` varchar(255) NOT NULL,
-`phone` varchar(255)  NOT NULL
+`name` nvarchar(255),
+`gender` varchar(255) ,
+`email` varchar(255)  ,
+`address` varchar(255) ,
+`phone` varchar(255) 
 )ENGINE=InnoDB AUTO_INCREMENT=1 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 CREATE TABLE `roles` (
