@@ -2,14 +2,19 @@ package com.huy.backendnoithat.Service.ThongTinNoiThat.HangMuc;
 
 import com.huy.backendnoithat.DAO.ThongTinNoiThat.HangMuc.HangMucDAO;
 import com.huy.backendnoithat.DAO.ThongTinNoiThat.NoiThat.NoiThatDAO;
+import com.huy.backendnoithat.DTO.BangNoiThat.PhongCach;
 import com.huy.backendnoithat.Entity.BangNoiThat.HangMucEntity;
 import com.huy.backendnoithat.DTO.BangNoiThat.HangMuc;
 import com.huy.backendnoithat.Entity.BangNoiThat.NoiThatEntity;
+import com.huy.backendnoithat.Entity.BangNoiThat.PhongCachNoiThatEntity;
 import com.huy.backendnoithat.Service.ThongTinNoiThat.NoiThat.NoiThatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+
 @Service
 public class HangMucServiceImpl implements HangMucService {
     HangMucDAO hangMucDAO;
@@ -21,10 +26,15 @@ public class HangMucServiceImpl implements HangMucService {
     }
     @Override
     public List<HangMuc> findAll() {
-        return hangMucDAO.findAll().stream().map(hangMuc -> new HangMuc(hangMuc, false)).toList();
+        Iterable<HangMucEntity> hangMucEntities = hangMucDAO.findAll();
+        List<HangMucEntity> result = new ArrayList<>();
+        hangMucEntities.forEach(result::add);
+        return result.stream()
+                .map(hangMuc -> new HangMuc(hangMuc, false)).toList();
     }
     @Override
     public HangMuc findUsingId(int id) {
+        Optional<HangMucEntity> hangMucEntity =
         return new HangMuc(hangMucDAO.findById(id), false);
     }
     @Override

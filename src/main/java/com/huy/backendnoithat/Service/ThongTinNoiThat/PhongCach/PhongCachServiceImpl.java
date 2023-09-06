@@ -6,7 +6,10 @@ import com.huy.backendnoithat.DTO.BangNoiThat.PhongCach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+
 @Service
 public class PhongCachServiceImpl implements PhongCachService {
     PhongCachDAO phongCachDAO;
@@ -16,13 +19,19 @@ public class PhongCachServiceImpl implements PhongCachService {
     }
     @Override
     public List<PhongCach> findAll() {
-        List<PhongCachNoiThatEntity> phongCachNoiThatEntities = phongCachDAO.findAll();
-        return phongCachNoiThatEntities.stream()
+        Iterable<PhongCachNoiThatEntity> phongCachNoiThatEntities = phongCachDAO.findAll();
+        List<PhongCachNoiThatEntity> result = new ArrayList<>();
+        phongCachNoiThatEntities.forEach(result::add);
+        return result.stream()
                 .map(phongCachNoiThat -> new PhongCach(phongCachNoiThat, false)).toList();
     }
     @Override
     public PhongCach findById(int id) {
-        return new PhongCach(phongCachDAO.findById(id), false);
+        Optional<PhongCachNoiThatEntity> phongCachNoiThatEntity = phongCachDAO.findById(id);
+        if (phongCachNoiThatEntity.isEmpty()) {
+            return null;
+        }
+        return new PhongCach(phongCachNoiThatEntity.get(), false);
     }
     @Override
     public PhongCach findUsingName(String name) {
@@ -42,8 +51,7 @@ public class PhongCachServiceImpl implements PhongCachService {
 
     @Override
     public void update(PhongCach phongCachNoi) {
-        PhongCachNoiThatEntity phongCachNoiThatEntity = new PhongCachNoiThatEntity(phongCachNoi);
-        phongCachDAO.update(phongCachNoiThatEntity);
+        phongCachDAO.update(phongCachNoi.getName(), phongCachNoi.getId());
     }
 
     @Override
