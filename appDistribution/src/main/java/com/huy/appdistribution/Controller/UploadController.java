@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class UploadController {
     private final UploadService uploadService;
     @PostMapping("")
-    public void upload(@RequestPart MultipartFile file, @RequestPart Test test) {
+    public void upload(@RequestPart MultipartFile file, @RequestPart(required = false) Test test) {
         uploadService.upload(file);
     }
 }
