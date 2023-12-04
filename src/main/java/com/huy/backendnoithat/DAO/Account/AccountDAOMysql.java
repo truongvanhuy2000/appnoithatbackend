@@ -18,7 +18,6 @@ public class AccountDAOMysql implements AccountDAO{
     public AccountDAOMysql(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
-
     @Override
     public List<AccountEntity> findAll() {
         TypedQuery<AccountEntity> query = entityManager.createQuery(
@@ -128,7 +127,6 @@ public class AccountDAOMysql implements AccountDAO{
                 "a.gender = :gender, " +
                 "a.address = :address " +
                 "WHERE account.username = :username");
-
         query.setParameter("username", username);
         query.setParameter("fullName", accountInformation.getName());
         query.setParameter("email", accountInformation.getEmail());

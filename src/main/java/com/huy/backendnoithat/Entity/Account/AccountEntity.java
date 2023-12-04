@@ -37,6 +37,9 @@ public class AccountEntity {
 
     @Column(name="expire_date")
     private Date expiredDate;
+
+    @Column(name="modify_date")
+    private Date modifyDate;
     public AccountEntity(Account account) {
         this.id = account.getId();
         this.username = account.getUsername();
